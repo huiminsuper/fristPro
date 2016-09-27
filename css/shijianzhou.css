@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+header {
+  width: 100%;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  color: white;
+  background: #131313;
+  position: relative;
+  display: -webkit-flex;
+  margin-bottom: .5rem; }
+  header a {
+    position: absolute;
+    width: 3.3rem;
+    height: 3.3rem;
+    background: url("../images/back.png") no-repeat;
+    background-size: 100% 100%;
+    left: .5rem;
+    top: .5rem;
+    font-size: 0; }
+  header label {
+    -webkit-flex-grow: 1;
+    text-align: center;
+    line-height: 4.5rem; }
+
+.content {
+  width: 100%;
+  -webkit-box-flex: 1;
+  padding: 0 .5rem;
+  overflow-y: auto; }
+  .content .box {
+    width: 100%;
+    padding-left: .5rem;
+    border-left: .1rem solid #666; }
+    .content .box .t {
+      width: 100%;
+      height: 2.1rem; }
+    .content .box .date {
+      width: 5rem;
+      line-height: 2rem;
+      text-align: center;
+      font-size: 1.4rem;
+      border-radius: 2.5rem;
+      color: white; }
+      .content .box .date:before {
+        content: "";
+        display: inline-block;
+        width: .4rem;
+        height: .4rem;
+        margin-left: -2rem;
+        margin-top: 0rem;
+        margin-right: 1.8rem;
+        border-radius: .2rem;
+        background: green; }
+    .content .box .datacolor1 {
+      background: red; }
+      .content .box .datacolor1:before {
+        background: red; }
+    .content .box .datacolor2 {
+      background: blue; }
+      .content .box .datacolor2:before {
+        background: blue; }
+    .content .box .datacolor3 {
+      background: green; }
+      .content .box .datacolor3:before {
+        background: green; }
+    .content .box .datacolor4 {
+      background: purple; }
+      .content .box .datacolor4:before {
+        background: purple; }
+
+.contentlist {
+  width: 100%;
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+  .contentlist dl {
+    width: 100%;
+    display: -webkit-flex;
+    border: .1rem solid #ccc;
+    padding: .5rem;
+    margin: .5rem 0; }
+    .contentlist dl dt {
+      width: 5rem;
+      height: 5rem; }
+      .contentlist dl dt img {
+        width: 100%;
+        height: 100%; }
+    .contentlist dl dd {
+      padding-left: .5rem; }
+      .contentlist dl dd h3 {
+        font-size: 1.6rem;
+        margin-bottom: .3rem; }
+      .contentlist dl dd time {
+        color: #999;
+        font-size: 1.4rem; }
+        .contentlist dl dd time:before {
+          content: "";
+          background: url("../images/time.png") no-repeat;
+          display: inline-block;
+          width: 1.3rem;
+          height: 1.3rem;
+          margin-right: .5rem;
+          background-size: 100% 100%; }
+      .contentlist dl dd p {
+        color: #999; }
+  .contentlist .ding {
+    width: 100%;
+    position: relative; }
+  .contentlist .download {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    color: #2e8deb;
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+    border: .1rem solid #ccc; }
+
+.fixed {
+  position: fixed;
+  left: 1.1rem;
+  top: 5.1rem;
+  z-index: 9999; }
+
+/*# sourceMappingURL=shijianzhou.css.map */
